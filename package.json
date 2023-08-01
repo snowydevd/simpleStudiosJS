@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.1",
     "autoprefixer": "10.4.14",
     "mongoose": "^7.4.1",
     "next": "13.4.12",
