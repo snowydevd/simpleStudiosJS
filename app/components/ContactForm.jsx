@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function ContactForm() {
     const [fullname, setFullname] = useState("");
     const [email, setEmail] = useState("");
-    const [business, setBusiness] = useState("");
+    const [business, setBusiness] = useState("(opcional)");
     const [message, setMessage] = useState("");
     const [error, setError] = useState([]);
     const [success, setSuccess] = useState(false);
