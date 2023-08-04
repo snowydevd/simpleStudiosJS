@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="animate-fade-up flex flex-col justify-center items-center">
                   
-    <div className="flex flex-col lg:flex-row justify-between-reverse lg:justify-between items-center w-full lg:w-4/6 h-1/4">
+    <div className="flex flex-col lg:flex-row justify-between-reverse lg:justify-between items-center w-full lg:w-4/6 h-1/4 mb-28">
 
     <Image
           className='floating block lg:hidden'
@@ -22,7 +22,7 @@ export default function Home() {
           <div className='text-4xl lato w-4/6 lg:w-4/6 text-center lg:text-start justify-center items-center'>
                 <h1 className='cap text-3xl md:text-6xl lg:text-7xl'><strong ><strong className='str'>Eleva</strong> tu negocio al siguiente nivel</strong></h1>
                 <SimpleButtonGradient><a href="./services">Empezar</a></SimpleButtonGradient>
-                <SimpleButtonContrast><a href="./info">Mas informacion</a></SimpleButtonContrast>
+                <SimpleButtonContrast><a href="./info">Más información</a></SimpleButtonContrast>
           </div> 
 
           

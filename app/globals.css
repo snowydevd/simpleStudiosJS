@@ -120,8 +120,25 @@ background: linear-gradient(to right, #CFC929 0%, #FF8324 50%, #7D1FCF 100%);
 }
 
 
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  transition: 1s
+}
 
-
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0, 0.9);
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(125,31,207,1); 
+  border-radius: 2px;
+  transition: 1s;
+}
 /* ANIMACION FLOTANTE  */
 .floating { 
   animation-name: floating;

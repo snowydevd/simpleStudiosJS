@@ -15,22 +15,22 @@ export default function Services() {
               {/* PRODUCT CARDS */}
               <div className='animate-fade-up duration-1000  flex flex-col w-full lg:w-2/6 justify-center items-center p-3 border-2 border-solid border-inherit rounded-2xl'>
 
-                <h1 className='text-3xl lg:text-4xl font-bold '>Basico</h1>
-                <p className='text-center text-l lg:text-xl mb-3 mt-3'> Pagina web</p>
+                <h1 className='text-3xl lg:text-4xl font-bold '>Básico</h1>
+                <p className='text-center text-l lg:text-xl mb-3 mt-3'> Página web</p>
                 
                 <ul className=' marker:text-violet-500 list-outside list-disc w-4/5 text-l'>
 
                   <p className=' font-semibold text-left text-xl mb-2'>Beneficios:</p>
                   <li>Dominio Propio</li>
                   <li>UX/UI</li>
-                  <li>Customizacion a gusto</li>
+                  <li>Personalización a gusto</li>
                   <li>Redes sociales</li>
                   <li>Archivos descargables</li>
                   <li>Asesoramiento</li>
-                  <li>Mini-Catalogo</li>
-                  <li>Contacto via email de la compania</li>
+                  <li>Mini-Catálogo</li>
+                  <li>Contacto vía email de la compañia</li>
                   <li className='marker:text-gray-600 list-outside list-disc text-gray-400'>Base de datos</li>
-                  <li className='marker:text-gray-600 list-outside list-disc text-gray-400'>Registro y inicio de sesion de usuarios</li>
+                  <li className='marker:text-gray-600 list-outside list-disc text-gray-400'>Registro e inicio de sesión de usuarios</li>
                 </ul>
                   <div className='flex  flex-col lg:flex-row justify-between items-center w-full mt-5'>
                       <h1 className='text-xl font-semibold'>USD149.99/mes</h1>
@@ -42,21 +42,21 @@ export default function Services() {
               <div className='animate-fade-up duration-1000  flex flex-col w-full lg:w-2/6 justify-center items-center p-3 border-2 border-solid border-inherit rounded-2xl'>
 
                 <h1 className='text-3xl lg:text-4xl font-bold '>Avanzado</h1>
-                <p className='text-center text-l lg:text-xl mb-3 mt-3'>Comercio electronico</p>
+                <p className='text-center text-l lg:text-xl mb-3 mt-3'>Comercio electrónico</p>
 
                 <ul className=' marker:text-violet-500 list-outside list-disc w-4/5 text-l'>
 
                   <p className=' font-semibold text-left text-xl mb-2'>Beneficios:</p>
                   <li>Dominio Propio</li>
                   <li>UX/UI</li>
-                  <li>Customizacion a gusto</li>
+                  <li>Personalización a gusto</li>
                   <li>Redes sociales</li>
                   <li>Archivos descargables</li>
                   <li>Asesoramiento</li>
-                  <li>Mini-Catalogo</li>
-                  <li>Contacto via email de la compania</li>
+                  <li>Mini-Catálogo</li>
+                  <li>Contacto vía email de la compañia</li>
                   <li >Base de datos</li>
-                  <li>Registro y inicio de sesion de usuarios</li>
+                  <li>Registro e inicio de sesión de usuarios</li>
                 </ul>
                   <div className='flex  flex-col lg:flex-row justify-between items-center w-full mt-5'>
                       <h1 className='text-xl font-semibold'>USD259.99/mes</h1>
@@ -65,8 +65,8 @@ export default function Services() {
                 </div>
             </div>
             <div className='bg-neutral-900 lg:bg-transparent text-center w-full p-3'>
-              <h2 className='text-xs lg:text-l'>Los servicios estan sujetos a cambio de precio tomando en cuenta los gustos y extras que el usuario quiera agregarle a la pagina</h2>
-              <h2 className='text-xs lg:text-l'>Cada mes que se abone el dinero correspondiente al producto comprado se hará un mantenimiento del sitio web</h2>
+              <h2 className='text-xs lg:text-l'>Los servicios están sujetos a modificación de precios, de acuerdo a las modificaciones que el usuario desee.</h2>
+              <h2 className='text-xs lg:text-l'>El mantenimiento del sitio web puede contratarlo con un costo mensual a convenir.</h2>
             </div>
           
           </div>

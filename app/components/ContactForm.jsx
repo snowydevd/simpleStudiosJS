@@ -59,7 +59,7 @@ export default function ContactForm() {
             </div>
 
             <div className='flex flex-col m-5'>
-                <label className='font-semibold text-l lg:text-xl' htmlFor="email">Correo Electronico</label>
+                <label className='font-semibold text-l lg:text-xl' htmlFor="email">Correo Electrónico</label>
                 <input className=' bg-zinc-700 border-none rounded-lg text-l p-2' type="email" onChange={(e) => setEmail(e.target.value)} value={email} id='email' name='email' placeholder='ejemplo@mail.com' required/>
             </div>
 
@@ -81,7 +81,7 @@ export default function ContactForm() {
 
             <div className='flex flex-col m-5'>
                 <label className='font-semibold text-l lg:text-xl' htmlFor="message">Consulta</label>
-                <textarea className=' bg-zinc-700 border-none rounded-lg text-l h-28 min-h-[32px] max-h-48 p-2' onChange={(e) => setMessage(e.target.value)} value={message} id='message' name='message' placeholder='Escriba la consulta aqui' required/>
+                <textarea className=' bg-zinc-700 border-none rounded-lg text-l h-28 min-h-[32px] max-h-48 p-2' onChange={(e) => setMessage(e.target.value)} value={message} id='message' name='message' placeholder='Escriba la consulta aquí' required/>
             </div>
             
             <div className='m-5'>
@@ -105,7 +105,7 @@ export default function ContactForm() {
         </form>
 
         <div className='text-center'>
-          <p>Gracias por contactarnos! en breves un operador estara en contacto contigo via email</p>
+          <p>Gracias por contactarnos! Un operador estará en contacto contigo, vía e-mail.</p>
         </div>
 
     </main>
