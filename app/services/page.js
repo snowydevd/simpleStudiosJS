@@ -33,7 +33,7 @@ export default function Services() {
                   <li className='marker:text-gray-600 list-outside list-disc text-gray-400'>Registro e inicio de sesión de usuarios</li>
                 </ul>
                   <div className='flex  flex-col lg:flex-row justify-between items-center w-full mt-5'>
-                    <div className='text-center mb-4'>
+                    <div className=' lg:text-left text-center mb-4'>
                          <h1 className='text-xl font-semibold'>USD149.99</h1>
                          <p className='text-xs'>Luego USD49.99/mes</p>
                     </div>
@@ -63,7 +63,7 @@ export default function Services() {
                   <li>Registro e inicio de sesión de usuarios</li>
                 </ul>
                   <div className='flex  flex-col lg:flex-row justify-between items-center w-full mt-5'>
-                       <div className='text-center mb-4'>
+                       <div className='lg:text-left text-center mb-4'>
                          <h1 className='text-xl font-semibold'>USD249.99</h1>
                          <p className='text-xs'>Luego USD59.99/mes</p>
                     </div>
