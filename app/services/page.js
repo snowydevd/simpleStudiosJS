@@ -33,8 +33,12 @@ export default function Services() {
                   <li className='marker:text-gray-600 list-outside list-disc text-gray-400'>Registro e inicio de sesión de usuarios</li>
                 </ul>
                   <div className='flex  flex-col lg:flex-row justify-between items-center w-full mt-5'>
-                      <h1 className='text-xl font-semibold'>USD149.99/mes</h1>
-                      
+                    <div className='text-center mb-4'>
+                         <h1 className='text-xl font-semibold'>USD149.99</h1>
+                         <p className='text-xs'>Luego USD49.99/mes</p>
+                    </div>
+                     
+                        
                       <a href="./contact"><button className='bg-violet-500 p-2 text-xl rounded-lg font-lato font-semibold hover:bg-violet-950 duration-150'>Comprar</button></a>
                   </div>
               </div>
@@ -59,7 +63,10 @@ export default function Services() {
                   <li>Registro e inicio de sesión de usuarios</li>
                 </ul>
                   <div className='flex  flex-col lg:flex-row justify-between items-center w-full mt-5'>
-                      <h1 className='text-xl font-semibold'>USD259.99/mes</h1>
+                       <div className='text-center mb-4'>
+                         <h1 className='text-xl font-semibold'>USD249.99</h1>
+                         <p className='text-xs'>Luego USD59.99/mes</p>
+                    </div>
                       <button className=' bg-gray-600 p-2 text-xl rounded-lg font-lato font-semibold'>Sin Stock</button>
                   </div>
                 </div>
