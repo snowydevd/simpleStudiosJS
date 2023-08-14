@@ -6,11 +6,11 @@ import mongoose from "mongoose";
 
 
 export async function POST(req) {
-  const { fullname, business, email, message } = await req.json();
+  const { fullname, business, email, service, message } = await req.json();
 
   try {
     await connectDB();
-    await Contact.create({ fullname, business, email, message });
+    await Contact.create({ fullname, business, email, service, message });
 
     return NextResponse.json({
       msg: ["Contacto enviado correctamente 😉"],

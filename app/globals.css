@@ -24,6 +24,7 @@
 body {
   color: white;
   background-image: url('./assets/bg-main.svg');
+  background-attachment: fixed;
   background-repeat: repeat ;
   background-size: auto;
 }
@@ -87,7 +88,7 @@ background: linear-gradient(to right, #CFC929 0%, #FF8324 50%, #7D1FCF 100%);
   margin-right: 7px;
   border-radius: 100px;
   font-family: 'Lato', sans-serif;
-  padding: 15px 10px;
+  padding: 12px 19px;
   margin-top: 20px;
   background: rgb(207,201,41);
   background: linear-gradient(90deg, rgba(207,201,41,1) 0%, rgba(255,131,36,1) 50%, rgba(125,31,207,1) 100%);
@@ -109,7 +110,7 @@ background: linear-gradient(to right, #CFC929 0%, #FF8324 50%, #7D1FCF 100%);
   font-weight: bold;
   margin-top: 20px;
 
-  padding: 15px 10px;
+  padding: 12px 19px;
   color: black;
   background: rgb(255, 255, 255);
   transition: 200ms ease-in-out;
@@ -123,7 +124,7 @@ background: linear-gradient(to right, #CFC929 0%, #FF8324 50%, #7D1FCF 100%);
 /* SCROLLBAR */
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 5px;
   transition: 1s
 }
 

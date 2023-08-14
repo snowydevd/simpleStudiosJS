@@ -3,8 +3,8 @@ import Image from 'next/image'
 import Logo from '../assets/logo.svg'
 export default function () {
   return (
-    <div className='flex flex-row justify-center items-center w-full'>
-         <div className='w-full bg-stone-800 flex flex-row justify-center items-center h-auto mt-36'>
+    <div className='flex flex-row justify-center items-center w-full bottom-0'>
+         <div className='w-full bg-stone-800 flex flex-row justify-center items-center h-full mt-36'>
             <div className='flex flex-row justify-between w-full p-6'>
                 <div className='w-1/6 hidden lg:block'>
                         <Image

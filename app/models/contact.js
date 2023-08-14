@@ -23,6 +23,11 @@ const contactSchema = new Schema({
     match: [/^[\w.%+-]+@[\w.-]+\.[A-Za-z]{2,}$/i, "Correo invalido"],
   },
 
+  service: {
+    type: String,
+    required: [false, "opcional"],
+  },
+
   message: {
     type: String,
     required: [true, "El mensaje es obligatorio"],
